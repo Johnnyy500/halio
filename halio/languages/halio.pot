@@ -1,0 +1,1712 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Halio v1.4.7\n"
+"POT-Creation-Date: 2016-09-18 15:16+0100\n"
+"PO-Revision-Date: 2016-04-08 05:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: halio@timgreen.biz\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/css\n"
+"X-Poedit-SearchPathExcluded-1: includes/js\n"
+
+#: includes/halio-calendar.php:70 includes/halio-calendar.php:113
+#: includes/halio-new-order.php:296 includes/halio-new-order.php:402
+#: pages/fixed-addresses/edit.php:52 pages/fixed-addresses/index.php:88
+#: pages/fixed-addresses/index.php:162
+msgid "Starting Address"
+msgstr ""
+
+#: includes/halio-calendar.php:71 includes/halio-calendar.php:114
+#: includes/halio-new-order.php:300 includes/halio-new-order.php:403
+#: pages/fixed-addresses/edit.php:55 pages/fixed-addresses/index.php:90
+#: pages/fixed-addresses/index.php:165
+msgid "Destination Address"
+msgstr ""
+
+#: includes/halio-calendar.php:72 includes/halio-calendar.php:115
+#: includes/halio-new-order.php:304 includes/halio-new-order.php:417
+#: pages/pricing-conditions/polygon/edit.php:50
+#: pages/pricing-conditions/polygon/edit.php:59
+#: pages/pricing-conditions/tabs/polygon_tab.php:13
+#: pages/pricing-conditions/tabs/polygon_tab.php:129
+#: pages/pricing-conditions/tabs/time_tab.php:12
+#: pages/pricing-conditions/tabs/time_tab.php:191
+#: pages/pricing-conditions/time/edit.php:139
+msgid "Vehicle"
+msgstr ""
+
+#: includes/halio-calendar.php:74 includes/halio-calendar.php:117
+#: includes/halio-new-order.php:308 includes/halio-new-order.php:404
+msgid "Pick Up Time"
+msgstr ""
+
+#: includes/halio-calendar.php:75 includes/halio-calendar.php:118
+#: includes/halio-new-order.php:325
+msgid "Duration"
+msgstr ""
+
+#: includes/halio-calendar.php:76 includes/halio-calendar.php:119
+#: includes/halio-new-order.php:329
+msgid "Distance"
+msgstr ""
+
+#: includes/halio-calendar.php:77 includes/halio-calendar.php:120
+msgid "Order Status"
+msgstr ""
+
+#: includes/halio-new-order.php:112
+msgid "Journey Information"
+msgstr ""
+
+#: includes/halio-new-order.php:316 includes/halio-new-order.php:409
+msgid "Return Pick Up Time"
+msgstr ""
+
+#: includes/halio-new-order.php:333 includes/halio-new-order.php:421
+msgid "Direction"
+msgstr ""
+
+#: includes/halio-new-order.php:337 includes/halio-new-order.php:413
+msgid "Occupants"
+msgstr ""
+
+#: includes/halio-new-order.php:435
+msgid "Field"
+msgstr ""
+
+#: includes/halio-new-order.php:438
+msgid "Value"
+msgstr ""
+
+#: includes/halio-page-render.php:24 includes/halio-page-render.php:588
+#: includes/halio-page-render.php:752
+msgid "Settings Updated!"
+msgstr ""
+
+#: includes/halio-page-render.php:58
+msgid "Vehicle updated!"
+msgstr ""
+
+#: includes/halio-page-render.php:63
+msgid "Error updating vehicle"
+msgstr ""
+
+#: includes/halio-page-render.php:71
+msgid "Vehicle deleted"
+msgstr ""
+
+#: includes/halio-page-render.php:94
+msgid "Vehicle Created"
+msgstr ""
+
+#: includes/halio-page-render.php:100
+#, php-format
+msgid "Error creating vehicle %s"
+msgstr ""
+
+#: includes/halio-page-render.php:121
+msgid "You need to specify a start and end time"
+msgstr ""
+
+#: includes/halio-page-render.php:138
+msgid "Vehicle Availability Time Created"
+msgstr ""
+
+#: includes/halio-page-render.php:144
+#, php-format
+msgid "Error creating Vehicle Availability Time %s"
+msgstr ""
+
+#: includes/halio-page-render.php:155
+msgid "Vehicle Availability Time deleted"
+msgstr ""
+
+#: includes/halio-page-render.php:160
+#: pages/pricing-conditions/tabs/time_tab.php:36
+#: pages/pricing-conditions/tabs/time_tab.php:180
+#: pages/pricing-conditions/time/edit.php:128
+#: pages/vehicles/tabs/availability.php:4
+msgid "Sunday"
+msgstr ""
+
+#: includes/halio-page-render.php:161
+#: pages/pricing-conditions/tabs/time_tab.php:30
+#: pages/pricing-conditions/tabs/time_tab.php:144
+#: pages/pricing-conditions/time/edit.php:92
+#: pages/vehicles/tabs/availability.php:5
+msgid "Monday"
+msgstr ""
+
+#: includes/halio-page-render.php:162
+#: pages/pricing-conditions/tabs/time_tab.php:31
+#: pages/pricing-conditions/tabs/time_tab.php:150
+#: pages/pricing-conditions/time/edit.php:98
+#: pages/vehicles/tabs/availability.php:6
+msgid "Tuesday"
+msgstr ""
+
+#: includes/halio-page-render.php:163
+#: pages/pricing-conditions/tabs/time_tab.php:32
+#: pages/pricing-conditions/tabs/time_tab.php:156
+#: pages/pricing-conditions/time/edit.php:104
+#: pages/vehicles/tabs/availability.php:7
+msgid "Wednesday"
+msgstr ""
+
+#: includes/halio-page-render.php:164
+#: pages/pricing-conditions/tabs/time_tab.php:33
+#: pages/pricing-conditions/tabs/time_tab.php:162
+#: pages/pricing-conditions/time/edit.php:110
+#: pages/vehicles/tabs/availability.php:8
+msgid "Thursday"
+msgstr ""
+
+#: includes/halio-page-render.php:165
+#: pages/pricing-conditions/tabs/time_tab.php:34
+#: pages/pricing-conditions/tabs/time_tab.php:168
+#: pages/pricing-conditions/time/edit.php:116
+#: pages/vehicles/tabs/availability.php:9
+msgid "Friday"
+msgstr ""
+
+#: includes/halio-page-render.php:166
+#: pages/pricing-conditions/tabs/time_tab.php:35
+#: pages/pricing-conditions/tabs/time_tab.php:174
+#: pages/pricing-conditions/time/edit.php:122
+#: pages/vehicles/tabs/availability.php:10
+msgid "Saturday"
+msgstr ""
+
+#: includes/halio-page-render.php:181
+#, php-format
+msgid "Vehicle status changed for %s"
+msgstr ""
+
+#: includes/halio-page-render.php:212
+msgid ""
+"You need to select either 'Specific Area' or 'Anywhere' for the pick up "
+"location."
+msgstr ""
+
+#: includes/halio-page-render.php:217
+msgid ""
+"You need to select either 'Specific Area' or 'Anywhere' for the drop off "
+"location."
+msgstr ""
+
+#: includes/halio-page-render.php:222 includes/halio-page-render.php:330
+msgid "You need to draw the geographical area the rule applies to for pick ups"
+msgstr ""
+
+#: includes/halio-page-render.php:227 includes/halio-page-render.php:335
+msgid ""
+"You need to draw the geographical area the rule applies to for drop offs"
+msgstr ""
+
+#: includes/halio-page-render.php:232
+msgid "You need to provide a name for this rule"
+msgstr ""
+
+#: includes/halio-page-render.php:309 includes/halio-page-render.php:417
+msgid "Pricing condition created"
+msgstr ""
+
+#: includes/halio-page-render.php:315
+#, php-format
+msgid "Error creating pricing condition: %s"
+msgstr ""
+
+#: includes/halio-page-render.php:434 includes/halio-page-render.php:549
+msgid "Pricing condition deleted"
+msgstr ""
+
+#: includes/halio-page-render.php:452 includes/halio-page-render.php:494
+msgid ""
+"Times must be on the same day and the starting time must be before the "
+"ending time."
+msgstr ""
+
+#: includes/halio-page-render.php:478
+msgid "Time Pricing Condition created!"
+msgstr ""
+
+#: includes/halio-page-render.php:483
+msgid "Error creating Time Pricing Condition"
+msgstr ""
+
+#: includes/halio-page-render.php:522
+msgid "Time Pricing Condition updated!"
+msgstr ""
+
+#: includes/halio-page-render.php:527
+msgid "Error updating Time Pricing Condition"
+msgstr ""
+
+#: includes/halio-page-render.php:613
+msgid "New Custom Checkout Field created!"
+msgstr ""
+
+#: includes/halio-page-render.php:618
+msgid "Error creating Custom Checkout Field"
+msgstr ""
+
+#: includes/halio-page-render.php:636
+msgid "Checkout Field updated!"
+msgstr ""
+
+#: includes/halio-page-render.php:641
+msgid "Error updating Checkout Field"
+msgstr ""
+
+#: includes/halio-page-render.php:662
+msgid "Checkout Field deleted"
+msgstr ""
+
+#: includes/halio-page-render.php:685 includes/halio-page-render.php:733
+msgid "You need to specify the address"
+msgstr ""
+
+#: includes/halio-page-render.php:690
+msgid ""
+"You need to specify whether this address is a starting or destination "
+"address."
+msgstr ""
+
+#: includes/halio-page-render.php:707
+msgid "Fixed Address created!"
+msgstr ""
+
+#: includes/halio-page-render.php:728
+msgid "Fixed Address updated!"
+msgstr ""
+
+#: includes/halio-page-render.php:762
+msgid "Fixed Address deleted"
+msgstr ""
+
+#: includes/halio-setup.php:49 includes/halio-setup.php:50
+msgid "Settings"
+msgstr ""
+
+#: includes/halio-setup.php:70 includes/halio-setup.php:71
+#: pages/vehicles/index.php:17
+msgid "Vehicles"
+msgstr ""
+
+#: includes/halio-setup.php:80 includes/halio-setup.php:81
+#: pages/pricing-conditions/index.php:15
+msgid "Pricing Conditions"
+msgstr ""
+
+#: includes/halio-setup.php:90 includes/halio-setup.php:91
+#: pages/form-design/index.php:10
+msgid "Form Design"
+msgstr ""
+
+#: includes/halio-setup.php:100 includes/halio-setup.php:101
+#: pages/fixed-addresses/index.php:16
+msgid "Fixed Addresses"
+msgstr ""
+
+#: includes/halio-setup.php:109 includes/halio-setup.php:110
+#: pages/calendar/index.php:3
+msgid "Calendar"
+msgstr ""
+
+#: includes/pages/form.php:113
+msgid "Drag the markers to change location"
+msgstr ""
+
+#: includes/pages/form.php:115
+msgid "Drag the destination marker to change location"
+msgstr ""
+
+#: includes/pages/form.php:117
+msgid "Drag the origin marker to change location"
+msgstr ""
+
+#: pages/calendar/index.php:8
+msgid "Loading Calendar..."
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:14
+msgid "Edit Fixed Addresses"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:23 pages/fixed-addresses/edit.php:47
+#: pages/fixed-addresses/index.php:71 pages/fixed-addresses/index.php:130
+#: pages/fixed-addresses/index.php:154
+msgid "Address"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:29 pages/fixed-addresses/index.php:136
+msgid "The address of the destination."
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:35 pages/fixed-addresses/edit.php:38
+#: pages/fixed-addresses/index.php:72 pages/fixed-addresses/index.php:142
+#: pages/fixed-addresses/index.php:145
+msgid "Pretty Address"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:41 pages/fixed-addresses/index.php:148
+msgid ""
+"The address that users see in the drop-down, if you want this to be the same "
+"as the actual address leave this field blank."
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:60
+msgid ""
+"Should this address be displayed in the drop-down for starting addressed or "
+"destination address?"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:66 pages/fixed-addresses/index.php:74
+#: pages/fixed-addresses/index.php:176
+#: pages/form-design/checkout-fields/edit.php:70
+#: pages/form-design/tabs/checkout.php:18
+#: pages/form-design/tabs/checkout.php:118
+#: pages/pricing-conditions/tabs/polygon_tab.php:19
+#: pages/pricing-conditions/tabs/time_tab.php:15
+#: pages/pricing-conditions/time/edit.php:43 pages/vehicles/index.php:32
+msgid "Active?"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:71 pages/fixed-addresses/index.php:29
+#: pages/fixed-addresses/index.php:49 pages/fixed-addresses/index.php:181
+#: pages/form-design/checkout-fields/edit.php:56
+#: pages/form-design/checkout-fields/edit.php:75
+#: pages/form-design/tabs/checkout.php:104
+#: pages/form-design/tabs/checkout.php:123
+#: pages/form-design/tabs/front_end.php:16
+#: pages/form-design/tabs/front_end.php:36
+#: pages/form-design/tabs/front_end.php:79
+#: pages/form-design/tabs/front_end.php:99
+#: pages/form-design/tabs/front_end.php:119 pages/home.php:149
+#: pages/home.php:229 pages/home.php:265 pages/home.php:305 pages/home.php:359
+#: pages/home.php:463 pages/pricing-conditions/polygon/edit.php:83
+#: pages/pricing-conditions/time/edit.php:48
+msgid "True"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:74 pages/fixed-addresses/index.php:32
+#: pages/fixed-addresses/index.php:52 pages/fixed-addresses/index.php:184
+#: pages/form-design/checkout-fields/edit.php:59
+#: pages/form-design/checkout-fields/edit.php:78
+#: pages/form-design/tabs/checkout.php:107
+#: pages/form-design/tabs/checkout.php:126
+#: pages/form-design/tabs/front_end.php:19
+#: pages/form-design/tabs/front_end.php:39
+#: pages/form-design/tabs/front_end.php:82
+#: pages/form-design/tabs/front_end.php:102
+#: pages/form-design/tabs/front_end.php:122 pages/home.php:152
+#: pages/home.php:232 pages/home.php:268 pages/home.php:308 pages/home.php:362
+#: pages/home.php:466 pages/pricing-conditions/polygon/edit.php:86
+#: pages/pricing-conditions/time/edit.php:51
+msgid "False"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:79
+msgid "Is this address visible to customers?"
+msgstr ""
+
+#: pages/fixed-addresses/edit.php:86 pages/fixed-addresses/index.php:63
+#: pages/form-design/checkout-fields/edit.php:89
+#: pages/form-design/tabs/checkout.php:278
+#: pages/form-design/tabs/front_end.php:325 pages/home.php:115
+#: pages/home.php:515 pages/pricing-conditions/polygon/edit.php:267
+#: pages/pricing-conditions/time/edit.php:198
+#: pages/vehicles/tabs/details.php:124
+msgid "Update"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:24
+msgid "Use Fixed Addresses for Starting Address"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:37
+msgid ""
+"Do you want users to only be able to select from the addresses specified "
+"below for the starting address?"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:44
+msgid "Use Fixed Addresses for Destination Address"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:57
+msgid ""
+"Do you want users to only be able to select from the addresses specified "
+"below for the destination address?"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:73
+msgid "Starting / Destination Address"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:75 pages/form-design/tabs/checkout.php:19
+#: pages/pricing-conditions/tabs/polygon_tab.php:20
+#: pages/pricing-conditions/tabs/time_tab.php:16 pages/vehicles/index.php:33
+msgid "Actions"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:99
+msgid "Are you sure you want to delete this Fixed Address?"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:101 pages/form-design/tabs/checkout.php:45
+#: pages/pricing-conditions/tabs/polygon_tab.php:84
+#: pages/pricing-conditions/tabs/time_tab.php:67 pages/vehicles/index.php:72
+#: pages/vehicles/tabs/availability.php:49
+#: pages/vehicles/tabs/availability.php:66
+msgid "Delete"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:107 pages/form-design/tabs/checkout.php:51
+#: pages/pricing-conditions/tabs/polygon_tab.php:90
+#: pages/pricing-conditions/tabs/time_tab.php:73 pages/vehicles/index.php:78
+#: pages/vehicles/tabs/availability.php:35
+msgid "Deactivate"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:109 pages/form-design/tabs/checkout.php:53
+#: pages/pricing-conditions/tabs/polygon_tab.php:92
+#: pages/pricing-conditions/tabs/time_tab.php:75 pages/vehicles/index.php:80
+#: pages/vehicles/tabs/availability.php:37
+msgid "Activate"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:112 pages/form-design/tabs/checkout.php:56
+#: pages/pricing-conditions/tabs/polygon_tab.php:95 pages/vehicles/index.php:83
+msgid "Edit"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:119 pages/form-design/tabs/checkout.php:62
+#: pages/pricing-conditions/tabs/polygon_tab.php:101
+#: pages/pricing-conditions/tabs/time_tab.php:85 pages/vehicles/index.php:89
+msgid "No results found."
+msgstr ""
+
+#: pages/fixed-addresses/index.php:159
+msgid "Please select an address type..."
+msgstr ""
+
+#: pages/fixed-addresses/index.php:170
+msgid ""
+"Should this address be displayed in the drop-down for starting addresses or "
+"destination address?"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:189
+msgid "Is this address visible to customers on creation?"
+msgstr ""
+
+#: pages/fixed-addresses/index.php:196 pages/form-design/tabs/checkout.php:137
+#: pages/pricing-conditions/tabs/polygon_tab.php:330
+#: pages/pricing-conditions/tabs/time_tab.php:250 pages/vehicles/index.php:124
+#: pages/vehicles/tabs/availability.php:89
+msgid "Create"
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:16
+msgid "All Checkout Fields"
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:27
+#: pages/form-design/tabs/checkout.php:75
+msgid "Field Label"
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:33
+#: pages/form-design/tabs/checkout.php:81
+msgid "The label displayed next to the input field."
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:39
+#: pages/form-design/tabs/checkout.php:87
+msgid "Field Placeholder"
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:42
+#: pages/form-design/tabs/checkout.php:16
+#: pages/form-design/tabs/checkout.php:90
+msgid "Placeholder"
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:45
+#: pages/form-design/tabs/checkout.php:93
+msgid "The text displayed in the text field if nothing has been input."
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:51
+#: pages/form-design/tabs/checkout.php:17
+#: pages/form-design/tabs/checkout.php:99
+msgid "Required?"
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:64
+#: pages/form-design/tabs/checkout.php:112
+msgid ""
+"Does the user have to provide a value for this field or can they pay for the "
+"service without a value?"
+msgstr ""
+
+#: pages/form-design/checkout-fields/edit.php:83
+#: pages/form-design/tabs/checkout.php:131
+msgid "Will this field be activated on creation?"
+msgstr ""
+
+#: pages/form-design/index.php:19
+msgid "Front End"
+msgstr ""
+
+#: pages/form-design/index.php:24
+msgid "Checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:9
+msgid "Checkout Customisation"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:15
+#: pages/form-design/tabs/checkout.php:78
+msgid "Label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:43
+msgid "Are you sure you want to delete this Checkout Field?"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:69
+msgid "Create a new custom checkout field that can be added to orders"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:142
+#: pages/form-design/tabs/front_end.php:178
+msgid "Labels"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:149
+msgid "Label for 'Starting Address' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:152
+#: pages/form-design/tabs/front_end.php:211
+msgid "Starting Address label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:155
+msgid "The label on the checkout page for starting address."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:162
+msgid "Label for 'Destination Address' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:165
+msgid "Destination Address label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:168
+msgid "The label on the checkout page for destination address."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:175
+msgid "Label for 'Vehicle' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:178
+msgid "Vehicle label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:181
+msgid "The label on the checkout page for vehicle."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:188
+msgid "Label for 'Occupants' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:191
+msgid "Occupants label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:194
+msgid "The label on the checkout page for occupants."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:201
+msgid "Label for 'Pick Up Time' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:204
+#: pages/form-design/tabs/front_end.php:296
+msgid "Pick Up Time label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:207
+msgid "The label on the checkout page for pick up time."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:214
+msgid "Label for 'Direction' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:217
+#: pages/form-design/tabs/front_end.php:285
+msgid "Direction label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:220
+msgid "The label on the checkout page for direction."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:227
+msgid "Label for 'Duration' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:230
+msgid "Duration label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:233
+msgid "The label on the checkout page for duration."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:240
+msgid "Label for 'Distance' in checkout"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:243
+msgid "Distance label"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:246
+msgid "The label on the checkout page for distance."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:253
+msgid "'One Way' text"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:256
+msgid "One Way text"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:259
+msgid "Text that will display when trip is one way."
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:266
+msgid "'Return' text"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:269
+msgid "Return text"
+msgstr ""
+
+#: pages/form-design/tabs/checkout.php:272
+msgid "Text that will display when trip is return."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:11
+msgid "User can chose number of occupants"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:24
+msgid ""
+"If this is false, the number of occupants will not be taken into account "
+"when calculating cost, even if Price per Occupant for that vehicle is set."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:31
+msgid "User can chose vehicle type"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:44
+msgid ""
+"If this is false, the user will not see the vehicle type dropdown and the "
+"vehicle used will be the one specified below."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:51
+msgid "Default Vehicle"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:57
+msgid "Select a vehicle..."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:67
+msgid "The vehicle to be used if 'User can chose vehicle type' is false."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:74
+msgid "User can chose direction"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:87
+msgid ""
+"If this is false, the user will book a one way trip by default and will not "
+"be able to change this."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:94
+msgid "Show distance in price estimate box"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:107
+msgid "Can the user see the distance of the trip in the price estimate box?"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:114
+msgid "Show duration in price estimate box"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:127
+msgid "Can the user see the duration of the trip in the price estimate box?"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:134
+msgid "Show Title or Image"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:139
+msgid "Title"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:142
+msgid "Image"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:147
+msgid ""
+"In the header of the form, show a text title, or an image from a specified "
+"URL."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:154
+#: pages/form-design/tabs/front_end.php:157
+msgid "Form Title"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:160
+msgid "The title of the form, if you chose to show a title."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:167
+#: pages/form-design/tabs/front_end.php:170
+msgid "Form Image URL"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:173
+msgid "The URL of the image to be displayed at the top of the form."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:184
+msgid "Text in 'Estimate Cost' button"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:187
+msgid "Estimate Cost label"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:195
+#: pages/form-design/tabs/front_end.php:198
+msgid "Estimating Cost text"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:201
+msgid "Text in 'Estimate Cost' button when loading price"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:208
+msgid "Label for Starting Address field"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:214
+msgid ""
+"If the user can type the address this will be the placeholder for the "
+"starting address."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:221
+msgid "Starting Address Select Text"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:224
+msgid "Starting Address Select text"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:227
+msgid ""
+"If Fixed Addresses are used, this text will be displayed as the placeholder "
+"for the starting address drop-down."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:234
+msgid "Label for Destination Address field"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:237
+msgid "Destination Address Label"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:240
+msgid ""
+"If the user can type the address this will be the placeholder for the "
+"destination] address."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:247
+msgid "Destination Address Select Text"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:250
+msgid "Destination Address Select text"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:253
+msgid ""
+"If Fixed Addresses are used, this text will be displayed as the placeholder "
+"for the destination address drop-down."
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:260
+msgid "Label for Vehicle Type field"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:263
+msgid "Vehicle Type label"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:271
+msgid "Label for Number of Occupants field"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:274
+msgid "Number of Occupants label"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:282
+msgid "Label for Direction field"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:293
+msgid "Label for Pick up Time field"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:304
+msgid "Label for Return Pick up Time field"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:307
+msgid "Return Pick Up Time label"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:315
+msgid "Text for Book button"
+msgstr ""
+
+#: pages/form-design/tabs/front_end.php:318
+msgid "Book Button text"
+msgstr ""
+
+#: pages/home.php:9
+msgid "Halio Settings"
+msgstr ""
+
+#: pages/home.php:16
+msgid "Setup"
+msgstr ""
+
+#: pages/home.php:21
+msgid "Customisation"
+msgstr ""
+
+#: pages/home.php:31
+msgid "Halio Setup"
+msgstr ""
+
+#: pages/home.php:36
+msgid "Google Maps API Key"
+msgstr ""
+
+#: pages/home.php:39
+msgid "API Key"
+msgstr ""
+
+#: pages/home.php:45
+#, php-format
+msgid ""
+"It is highly recommended you get an API key to work with Google Maps. To "
+"create one, <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: pages/home.php:54
+msgid "Units"
+msgstr ""
+
+#: pages/home.php:59 pages/home.php:62
+msgid "kilometers"
+msgstr ""
+
+#: pages/home.php:60 pages/home.php:63
+msgid "miles"
+msgstr ""
+
+#: pages/home.php:68
+msgid "The units customers will be quoted with."
+msgstr ""
+
+#: pages/home.php:75
+msgid "Map Starting Country"
+msgstr ""
+
+#: pages/home.php:83
+msgid "The country which the map is centered on when it first loads."
+msgstr ""
+
+#: pages/home.php:88
+msgid "Currency"
+msgstr ""
+
+#: pages/home.php:93
+msgid ""
+"The currency customers will be quoted with. This is taken from WooCommerce."
+msgstr ""
+
+#: pages/home.php:98
+msgid "WooCommerce Product ID"
+msgstr ""
+
+#: pages/home.php:107
+#, php-format
+msgid "ID of the <a href=\"%s\">WooCommerce product</a> used as Taxi Fare."
+msgstr ""
+
+#: pages/home.php:125
+msgid "Halio Customisation"
+msgstr ""
+
+#: pages/home.php:131
+msgid "Return Fare Multiplier"
+msgstr ""
+
+#: pages/home.php:137
+msgid ""
+"The value the fare is multiplied by when the user requests a return journey."
+msgstr ""
+
+#: pages/home.php:144
+msgid "Enforce Autocomplete Country Restriction"
+msgstr ""
+
+#: pages/home.php:157
+msgid ""
+"When users are searching, do you want to limit the search to a specific "
+"country?"
+msgstr ""
+
+#: pages/home.php:164
+msgid "Autocomplete Country"
+msgstr ""
+
+#: pages/home.php:170
+msgid "Please select a country..."
+msgstr ""
+
+#: pages/home.php:183
+msgid "What country should the autocomplete be limited to?"
+msgstr ""
+
+#: pages/home.php:190 pages/home.php:193
+msgid "Vehicle Unavailable Message"
+msgstr ""
+
+#: pages/home.php:198
+msgid ""
+"The message that displays if the vehicle the user has chosen is not "
+"available at the selected time. This can be set in <strong>Vehicles > Edit > "
+"Edit Availability</strong>."
+msgstr ""
+
+#: pages/home.php:205 pages/home.php:208
+msgid "Vehicle Fully Booked Message"
+msgstr ""
+
+#: pages/home.php:213
+msgid ""
+"The message that displays if the user is selecting a time that is fully "
+"booked for the selected vehicle."
+msgstr ""
+
+#: pages/home.php:218
+msgid "Min/Max Fare"
+msgstr ""
+
+#: pages/home.php:224
+msgid "Enforce Minimum Fare"
+msgstr ""
+
+#: pages/home.php:237
+msgid ""
+"Do you want to enforce a minimum fare? <strong>This will take priority over "
+"any pricing conditions/fixed prices/price per mile settings you have.</"
+"strong> If the users fare is below the minimum fare, it will be set to the "
+"minimum fare."
+msgstr ""
+
+#: pages/home.php:244
+msgid "Minimum Fare Amount"
+msgstr ""
+
+#: pages/home.php:253
+msgid ""
+"The minimum amount a customer can be charged, no matter the length of the "
+"journey."
+msgstr ""
+
+#: pages/home.php:260
+msgid "Enforce Maximum Fare"
+msgstr ""
+
+#: pages/home.php:273
+msgid ""
+"Do you want to enforce a maximum fare? <strong>This will take priority over "
+"any pricing conditions/fixed prices/price per mile settings you have.</"
+"strong>"
+msgstr ""
+
+#: pages/home.php:280
+msgid "Maximum Fare Amount"
+msgstr ""
+
+#: pages/home.php:289
+msgid ""
+"The maximum amount a customer can be charged, no matter the length of the "
+"journey. This should be used in conjunction with the Maximum Distance rules."
+msgstr ""
+
+#: pages/home.php:294
+msgid "Min/Max Distances"
+msgstr ""
+
+#: pages/home.php:300
+msgid "Enforce Minimum Distance"
+msgstr ""
+
+#: pages/home.php:313
+msgid ""
+"Do you want there to be a minimum distance that all fares can be? If the "
+"customers trip is under the specified amount they will not be able to book a "
+"fare and the specified error message will display."
+msgstr ""
+
+#: pages/home.php:321
+#, php-format
+msgid "Minimum Distance (%s)"
+msgstr ""
+
+#: pages/home.php:326
+msgid "Minimum Distance"
+msgstr ""
+
+#: pages/home.php:330
+#, php-format
+msgid ""
+"The minimum distance a fare can be, this will only apply if you have chosen "
+"to enforce minimum distance. This is in %s. This can be changed in the Setup "
+"Tab."
+msgstr ""
+
+#: pages/home.php:339 pages/home.php:342
+msgid "Minimum Distance Error Message"
+msgstr ""
+
+#: pages/home.php:347
+msgid ""
+"The error message that will be displayed to the user if the trip is under "
+"the specified minimum distance."
+msgstr ""
+
+#: pages/home.php:354
+msgid "Enforce Maximum Distance"
+msgstr ""
+
+#: pages/home.php:367
+msgid ""
+"Do you want there to be a maximum distance that all fares can be? If the "
+"customers trip is over the specified amount they will not be able to book a "
+"fare and the specified error message will display."
+msgstr ""
+
+#: pages/home.php:375
+#, php-format
+msgid "Maximum Distance (%s)"
+msgstr ""
+
+#: pages/home.php:380
+msgid "Maximum Distance"
+msgstr ""
+
+#: pages/home.php:384
+#, php-format
+msgid ""
+"The maximum distance a fare can be, this will only apply if you have chosen "
+"to enforce maximum distance. This is in %s. This can be changed in the Setup "
+"Tab."
+msgstr ""
+
+#: pages/home.php:393 pages/home.php:396 pages/home.php:481
+msgid "Maximum Distance Error Message"
+msgstr ""
+
+#: pages/home.php:401
+msgid ""
+"The error message that will be displayed to the user if the trip is over the "
+"specified maximum distance."
+msgstr ""
+
+#: pages/home.php:408
+msgid "Minutes"
+msgstr ""
+
+#: pages/home.php:409
+msgid "Hours"
+msgstr ""
+
+#: pages/home.php:410 pages/pricing-conditions/tabs/time_tab.php:11
+#: pages/pricing-conditions/tabs/time_tab.php:138
+#: pages/pricing-conditions/time/edit.php:86
+msgid "Days"
+msgstr ""
+
+#: pages/home.php:411
+msgid "Weeks"
+msgstr ""
+
+#: pages/home.php:432 pages/home.php:435
+msgid "Booking Buffer Time"
+msgstr ""
+
+#: pages/home.php:447
+msgid ""
+"The amount of time a user must book in advance. Only integers will work in "
+"the value field, for more accuracy reduce the unit."
+msgstr ""
+
+#: pages/home.php:452 pages/home.php:493
+msgid "Acceptance Region"
+msgstr ""
+
+#: pages/home.php:458
+msgid "Enforce Acceptance Region"
+msgstr ""
+
+#: pages/home.php:471
+msgid ""
+"Do you want to only allow fares to be booked if they are collected within "
+"the specified acceptance region?"
+msgstr ""
+
+#: pages/home.php:478
+msgid "Acceptance Region Error Message"
+msgstr ""
+
+#: pages/home.php:486
+msgid ""
+"The error message that will display if the user books a job where the pick "
+"up location is outside the acceptance region."
+msgstr ""
+
+#: pages/home.php:500 pages/pricing-conditions/polygon/edit.php:193
+#: pages/pricing-conditions/polygon/edit.php:233
+#: pages/pricing-conditions/tabs/polygon_tab.php:253
+#: pages/pricing-conditions/tabs/polygon_tab.php:296
+msgid "Delete Shape"
+msgstr ""
+
+#: pages/home.php:507
+msgid ""
+"If 'Enforce Acceptance Region' is true, customers will only be able to book "
+"fares that have a starting address within the bounds of the shape drawn on "
+"this map."
+msgstr ""
+
+#: pages/home.php:509 pages/pricing-conditions/polygon/edit.php:202
+#: pages/pricing-conditions/polygon/edit.php:242
+#: pages/pricing-conditions/tabs/polygon_tab.php:262
+#: pages/pricing-conditions/tabs/polygon_tab.php:305
+msgid ""
+"To delete a shape, click the shape on the map, then press 'Delete Shape'."
+msgstr ""
+
+#: pages/pricing-conditions/index.php:24
+msgid "Geolocation"
+msgstr ""
+
+#: pages/pricing-conditions/index.php:29
+msgid "Time of Day"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:32
+#: pages/pricing-conditions/time/edit.php:17
+msgid "All Pricing Conditions"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:37
+msgid "Edit geolocation-based condition"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:47
+#: pages/pricing-conditions/tabs/polygon_tab.php:117
+#: pages/pricing-conditions/tabs/time_tab.php:102
+#: pages/pricing-conditions/time/edit.php:31
+msgid "Pricing Condition Name"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:53
+#: pages/pricing-conditions/tabs/polygon_tab.php:123
+#: pages/pricing-conditions/tabs/time_tab.php:108
+#: pages/pricing-conditions/time/edit.php:37
+msgid "The name you use to remember why you created this condition."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:64
+#: pages/pricing-conditions/tabs/polygon_tab.php:137
+#: pages/pricing-conditions/tabs/time_tab.php:48
+#: pages/pricing-conditions/tabs/time_tab.php:199
+#: pages/pricing-conditions/time/edit.php:147 pages/vehicles/edit.php:10
+msgid "All Vehicles"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:72
+msgid "The vehicle this rule applies to."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:78
+msgid "Active"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:91
+msgid "Should this condition be applied to new orders being made?"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:97
+#: pages/pricing-conditions/tabs/polygon_tab.php:151
+msgid "Fixed Price / Increased Price"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:102
+#: pages/pricing-conditions/polygon/edit.php:116
+#: pages/pricing-conditions/tabs/polygon_tab.php:15
+#: pages/pricing-conditions/tabs/polygon_tab.php:44
+#: pages/pricing-conditions/tabs/polygon_tab.php:159
+#: pages/pricing-conditions/tabs/polygon_tab.php:173
+msgid "Fixed Price"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:105
+#: pages/pricing-conditions/tabs/polygon_tab.php:41
+#: pages/pricing-conditions/tabs/polygon_tab.php:162
+msgid "Increase"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:110
+msgid ""
+"Do you want this rule to make the price <strong>fixed</strong> for this "
+"fare, or increase it by the <strong>Increase Amount</strong> and "
+"<strong>Increase Multiplier</strong>?"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:125
+#: pages/pricing-conditions/tabs/polygon_tab.php:182
+msgid "The amount this fare will be, no matter the distance/time etc."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:131
+#: pages/pricing-conditions/tabs/polygon_tab.php:16
+#: pages/pricing-conditions/tabs/polygon_tab.php:188
+#: pages/pricing-conditions/tabs/time_tab.php:13
+#: pages/pricing-conditions/tabs/time_tab.php:213
+#: pages/pricing-conditions/time/edit.php:161
+msgid "Increase Amount"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:140
+#: pages/pricing-conditions/tabs/polygon_tab.php:197
+#: pages/pricing-conditions/tabs/time_tab.php:222
+#: pages/pricing-conditions/time/edit.php:170
+msgid "The amount this condition increases the fare by."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:146
+#: pages/pricing-conditions/tabs/polygon_tab.php:17
+#: pages/pricing-conditions/tabs/polygon_tab.php:203
+#: pages/pricing-conditions/tabs/time_tab.php:14
+#: pages/pricing-conditions/tabs/time_tab.php:228
+#: pages/pricing-conditions/time/edit.php:176
+msgid "Increase Multiplier"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:153
+#: pages/pricing-conditions/tabs/polygon_tab.php:210
+#: pages/pricing-conditions/time/edit.php:183
+msgid ""
+"The multiplier this condition increases the fare by. If you don't want the "
+"fare to be multiplied leave the value at 1."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:157
+#: pages/pricing-conditions/tabs/polygon_tab.php:214
+#: pages/pricing-conditions/tabs/time_tab.php:239
+#: pages/pricing-conditions/time/edit.php:187
+msgid ""
+"<u>NOTICE:</u> If you are adding an Increased amount <strong>and</strong> an "
+"increase multiplier the amount will be added first, then the total will be "
+"multiplied."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:161
+#: pages/pricing-conditions/tabs/polygon_tab.php:218
+#: pages/pricing-conditions/tabs/time_tab.php:243
+#: pages/pricing-conditions/time/edit.php:191
+msgid ""
+"E.g. <strong>(total_fare + increase_amount) x increase_multiplier.</strong>"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:168
+#: pages/pricing-conditions/tabs/polygon_tab.php:225
+msgid "Pick Up Specific Area / Anywhere"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:173
+#: pages/pricing-conditions/polygon/edit.php:213
+#: pages/pricing-conditions/tabs/polygon_tab.php:233
+#: pages/pricing-conditions/tabs/polygon_tab.php:276
+msgid "Anywhere"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:176
+#: pages/pricing-conditions/polygon/edit.php:216
+#: pages/pricing-conditions/tabs/polygon_tab.php:236
+#: pages/pricing-conditions/tabs/polygon_tab.php:279
+msgid "Specific Area"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:181
+msgid ""
+"Do you want this rule to apply to people being picked up in a specific area "
+"or anywhere?"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:187
+#: pages/pricing-conditions/polygon/edit.php:227
+#: pages/pricing-conditions/tabs/polygon_tab.php:247
+msgid "Pick Up Area"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:200
+msgid "The pick up area this rule applies to."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:208
+#: pages/pricing-conditions/tabs/polygon_tab.php:268
+msgid "Drop Off Specific Area / Anywhere"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:221
+msgid ""
+"Do you want this rule to apply to people being dropped off in a specific "
+"area or anywhere?"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:240
+msgid "The drop off area this rule applies to."
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:248
+#: pages/pricing-conditions/tabs/polygon_tab.php:311
+msgid "One Directional or Each Way"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:253
+#: pages/pricing-conditions/tabs/polygon_tab.php:316
+msgid "One Direction"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:256
+#: pages/pricing-conditions/tabs/polygon_tab.php:73
+#: pages/pricing-conditions/tabs/polygon_tab.php:319
+msgid "Each Way"
+msgstr ""
+
+#: pages/pricing-conditions/polygon/edit.php:261
+#: pages/pricing-conditions/tabs/polygon_tab.php:324
+msgid ""
+"Do you want this condition to apply only from the starting area specified -> "
+"destination area specified or do you want it to apply to customers picked up/"
+"dropped off in either area?"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:6
+msgid "Geolocation-based conditions"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:12
+#: pages/pricing-conditions/tabs/polygon_tab.php:120
+#: pages/pricing-conditions/tabs/time_tab.php:8
+#: pages/pricing-conditions/tabs/time_tab.php:105
+#: pages/pricing-conditions/time/edit.php:34 pages/vehicles/index.php:24
+msgid "Name"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:14
+msgid "Fixed Price / Increase Amount"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:18
+msgid "One Way / Both Ways"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:50
+#: pages/pricing-conditions/tabs/polygon_tab.php:57
+#: pages/pricing-conditions/tabs/polygon_tab.php:64
+msgid "N/A"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:71
+msgid "One Way"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:82
+#: pages/pricing-conditions/tabs/time_tab.php:65
+msgid "Are you sure you want to delete this Pricing Condition?"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:108
+msgid "Create a new geolocation-based condition"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:134
+#: pages/pricing-conditions/tabs/time_tab.php:196
+#: pages/pricing-conditions/time/edit.php:144
+msgid "Please select a vehicle..."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:145
+#: pages/pricing-conditions/tabs/time_tab.php:207
+#: pages/pricing-conditions/time/edit.php:56
+#: pages/pricing-conditions/time/edit.php:155
+msgid "The vehicle this condition applies to."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:156
+msgid "Please select a pricing option..."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:167
+msgid ""
+"Do you want this condition to make the price <strong>fixed</strong> for this "
+"fare, or increase it by the <strong>Increase Amount</strong> and "
+"<strong>Increase Multiplier</strong>?"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:230
+msgid "Please select a pick up location constraint..."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:241
+msgid ""
+"Do you want this condition to apply to people being picked up in a specific "
+"area or anywhere?"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:260
+#: pages/pricing-conditions/tabs/polygon_tab.php:303
+msgid "The area this condition applies to."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:273
+msgid "Please select a drop off location constraint..."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:284
+msgid ""
+"Do you want this condition to apply to people being dropped off in a "
+"specific area or anywhere?"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/polygon_tab.php:290
+msgid "Drop Off Area"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/time_tab.php:9
+#: pages/pricing-conditions/tabs/time_tab.php:114
+#: pages/pricing-conditions/time/edit.php:62
+#: pages/vehicles/tabs/availability.php:47
+msgid "Start Time"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/time_tab.php:10
+#: pages/pricing-conditions/tabs/time_tab.php:126
+#: pages/pricing-conditions/time/edit.php:74
+#: pages/vehicles/tabs/availability.php:48
+msgid "End Time"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/time_tab.php:93
+msgid "Create a new time-based condition"
+msgstr ""
+
+#: pages/pricing-conditions/tabs/time_tab.php:120
+#: pages/pricing-conditions/time/edit.php:68
+msgid ""
+"The starting time of the pricing condition (HH:MM), <strong>24 hour format</"
+"strong>."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/time_tab.php:132
+#: pages/pricing-conditions/time/edit.php:80
+msgid ""
+"The ending time of the pricing condition (HH:MM), <strong>24 hour format</"
+"strong>."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/time_tab.php:185
+#: pages/pricing-conditions/time/edit.php:133
+msgid "The days this pricing condition applies to."
+msgstr ""
+
+#: pages/pricing-conditions/tabs/time_tab.php:235
+msgid ""
+"The multiplier this condition increases the fare by. <strong>If you don't "
+"want the fare to be multiplied leave the value at 1.</strong>"
+msgstr ""
+
+#: pages/pricing-conditions/time/edit.php:22
+msgid "Edit time-based condition"
+msgstr ""
+
+#: pages/vehicles/edit.php:26
+msgid "Edit Details"
+msgstr ""
+
+#: pages/vehicles/edit.php:31
+msgid "Edit Availability"
+msgstr ""
+
+#: pages/vehicles/index.php:6 pages/vehicles/tabs/details.php:4
+msgid "Mile"
+msgstr ""
+
+#: pages/vehicles/index.php:25
+msgid "Pasenger Space"
+msgstr ""
+
+#: pages/vehicles/index.php:26 pages/vehicles/tabs/details.php:43
+msgid "Suitcase Space"
+msgstr ""
+
+#: pages/vehicles/index.php:27 pages/vehicles/tabs/details.php:55
+msgid "Number Owned"
+msgstr ""
+
+#: pages/vehicles/index.php:28 pages/vehicles/tabs/details.php:67
+msgid "Starting Fare"
+msgstr ""
+
+#: pages/vehicles/index.php:30
+msgid "Minute"
+msgstr ""
+
+#: pages/vehicles/index.php:31
+msgid "Occupant"
+msgstr ""
+
+#: pages/vehicles/index.php:70
+msgid "Are you sure you want to delete this Vehicle?"
+msgstr ""
+
+#: pages/vehicles/tabs/availability.php:15
+#, php-format
+msgid "Edit %s Availability"
+msgstr ""
+
+#: pages/vehicles/tabs/availability.php:55
+msgid "No Availability Rules, available all day by default"
+msgstr ""
+
+#: pages/vehicles/tabs/availability.php:64
+msgid "Are you sure you want to delete this Vehicle Availability Time?"
+msgstr ""
+
+#: pages/vehicles/tabs/availability.php:79
+msgid "Start Time (24hr, HH:MM:SS)"
+msgstr ""
+
+#: pages/vehicles/tabs/availability.php:84
+msgid "End Time (24hr, HH:MM:SS)"
+msgstr ""
+
+#: pages/vehicles/tabs/availability.php:95
+#, php-format
+msgid "Inactive on %s"
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:8
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:19 pages/vehicles/tabs/details.php:22
+msgid "Vehicle Name"
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:25
+msgid "The name users see when they book a vehicle."
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:31
+msgid "Passenger Space"
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:37
+msgid "The maximum number of passengers this vehicle can hold."
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:49
+msgid "The maximum number of suitcases this vehicle can hold."
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:61
+msgid "The number of these vehicles you have in your fleet."
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:76
+msgid "The initial price of the fare."
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:83
+#, php-format
+msgid "Price per %s"
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:98
+msgid "Price per Minute"
+msgstr ""
+
+#: pages/vehicles/tabs/details.php:111
+msgid "Price per Occupant"
+msgstr ""
