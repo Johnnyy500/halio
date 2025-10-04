@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 class HalioHtmlForm {
   public function get_form($options = array()) {

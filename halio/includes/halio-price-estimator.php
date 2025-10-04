@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 class HalioPriceEstimator {
 
@@ -118,7 +120,7 @@ class HalioPriceEstimator {
         array_push($ar_y_coords, $coord[0]);
       }
 
-      if ( !is_point_in_polygon(count($ar_vertices), $ar_x_coords, $ar_y_coords, $starting_x, $starting_y) ) {
+      if ( !is_point_in_polygon(halio_safe_count($ar_vertices), $ar_x_coords, $ar_y_coords, $starting_x, $starting_y) ) {
         return array(
           'price' => 0,
           'message' => halio_get_settings_row('form_not_in_acceptance_region_message')->value,

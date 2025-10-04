@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 global $wpdb;
 $fixed_addresses = $wpdb->get_results('SELECT * FROM `' . $wpdb->prefix . 'halio_fixed_addresses`');

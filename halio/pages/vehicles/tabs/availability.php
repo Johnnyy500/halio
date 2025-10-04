@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 $days = array(
   'sunday' => __('Sunday', 'halio'),

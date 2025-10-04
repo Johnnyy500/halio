@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 $ppc = $wpdb->get_results('SELECT * FROM `' . $wpdb->prefix . 'halio_polygon_pricing_conditions`');
 

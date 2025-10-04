@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 global $wpdb;
 $pricing_condition = $wpdb->get_row("SELECT * FROM `" . $wpdb->prefix . "halio_time_pricing_conditions` WHERE id = " . esc_sql($_GET['time_pricing_condition_id']) . ";");

@@ -1,4 +1,6 @@
 <div class="halio-settings-page settings"><?php
+if (!defined('ABSPATH')) { exit; }
+
 
   if ( isset($flash) ) {
     ?><div class="alert alert-<?= $flash['type']; ?>" role="alert">
@@ -417,7 +419,7 @@
           $time_units_keys = array_keys($time_units);
 
           if ( !empty($booking_buffer_time->value) ) {
-            for ($i = count($time_units) - 1; $i >= 0; $i--) {
+            for ($i = halio_safe_count($time_units) - 1; $i >= 0; $i--) {
               $buffer_units = $time_units_keys[$i];
               $buffer_value = intval($booking_buffer_time->value) / floatval($time_units_keys[$i]);
 

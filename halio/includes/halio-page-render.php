@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 class HalioPageRender {
 
@@ -275,8 +277,8 @@ class HalioPageRender {
               'increase_amount' => esc_sql($increase_amount),
               'increase_multiplier' => esc_sql($increase_multiplier),
               'fixed_amount' => esc_sql($fixed_amount),
-              'pick_up_polygon_nos' => count($pick_up_coordinates),
-              'drop_off_polygon_nos' => count($drop_off_coordinates),
+              'pick_up_polygon_nos' => halio_safe_count($pick_up_coordinates),
+              'drop_off_polygon_nos' => halio_safe_count($drop_off_coordinates),
               'pick_up_location' => esc_sql($_POST['poly_pricing_condition']['pick_up_location']),
               'drop_off_location' => esc_sql($_POST['poly_pricing_condition']['drop_off_location']),
               'increase_or_fixed' => esc_sql($_POST['poly_pricing_condition']['increase_or_fixed']),
@@ -380,8 +382,8 @@ class HalioPageRender {
               'increase_amount' => esc_sql($increase_amount),
               'increase_multiplier' => esc_sql($increase_multiplier),
               'fixed_amount' => esc_sql($fixed_amount),
-              'pick_up_polygon_nos' => count($pick_up_coordinates) - 1,
-              'drop_off_polygon_nos' => count($drop_off_coordinates) - 1,
+              'pick_up_polygon_nos' => halio_safe_count($pick_up_coordinates) - 1,
+              'drop_off_polygon_nos' => halio_safe_count($drop_off_coordinates) - 1,
               'pick_up_location' => esc_sql($_POST['edit_poly_pricing_condition']['pick_up_location']),
               'drop_off_location' => esc_sql($_POST['edit_poly_pricing_condition']['drop_off_location']),
               'increase_or_fixed' => esc_sql($_POST['edit_poly_pricing_condition']['increase_or_fixed']),
@@ -655,7 +657,7 @@ class HalioPageRender {
         $key = uniqid('halio_');
         $result = $wpdb->get_results("SELECT id FROM `" . $checkout_table . "` WHERE `key` = '" . $key . "';");
 
-        while (count($result) > 0) {
+        while (halio_safe_count($result) > 0) {
           $key = uniqid('halio_');
           $result = $wpdb->get_results("SELECT id FROM `" . $checkout_table . "` WHERE `key` = '" . $key . "';");
         }

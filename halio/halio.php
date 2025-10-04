@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 /**
  * Plugin Name: Halio
@@ -7,12 +9,15 @@
  * Author URI: http://timgreen.biz
  * Text Domain: halio
  * Domain Path: /languages
- * Version: 1.5.1
+ * Version: 1.6.0
  * License: GPLv2
- * Description: Powerful pricing estimates for driving services.
+ * Requires at least: 6.0
+Requires PHP: 8.0
+Tested up to: 6.6
+Description: Powerful pricing estimates for driving services.
  */
 
-define('HALIO_VERSION', '1.5.1');
+define('HALIO_VERSION', '1.6.0');
 define('HALIO_PLUGIN', __FILE__);
 define('HALIO_PLUGIN_DIR', untrailingslashit(dirname(HALIO_PLUGIN)));
 

@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 global $wpdb;
 $fixed_address = $wpdb->get_row("SELECT * FROM `" . $wpdb->prefix . "halio_fixed_addresses` WHERE id = " . esc_sql($_GET['fixed_address_id']) . ";");

@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 require_once HALIO_PLUGIN_DIR . '/includes/halio-setup.php';
 require_once HALIO_PLUGIN_DIR . '/includes/halio-html-form.php';

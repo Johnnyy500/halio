@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 global $wpdb;
 $checkout_field = $wpdb->get_row("SELECT * FROM `" . $wpdb->prefix . "halio_custom_checkout_fields` WHERE `id` = " . esc_sql($_GET['checkout_field_id']) . ";");

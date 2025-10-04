@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 global $wpdb;
 $pricing_condition = $wpdb->get_row('SELECT * FROM `' . $wpdb->prefix . 'halio_polygon_pricing_conditions` WHERE id = ' . esc_sql($_GET['polygon_pricing_condition_id']) . ';');

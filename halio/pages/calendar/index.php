@@ -1,5 +1,7 @@
 <div class="halio-settings-page">
 	<h1 class="center"><?php
+if (!defined('ABSPATH')) { exit; }
+
     _e('Calendar', 'halio');
   ?></h1>
 

@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 global $wpdb;
 $orders = $wpdb->get_results("SELECT * FROM `" . $wpdb->prefix . "posts` WHERE `post_type` = 'shop_order';");

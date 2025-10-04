@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 $unit_setting = $wpdb->get_row("SELECT * FROM `" . $wpdb->prefix . "halio_settings` WHERE `key` = 'units';");
 $units = halio_get_settings_row('units')->value == 'miles' ? __('Mile', 'halio') : 'KM';

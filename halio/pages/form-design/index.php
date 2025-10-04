@@ -1,4 +1,6 @@
 <div class="halio-settings-page form-settings"><?php
+if (!defined('ABSPATH')) { exit; }
+
 
   if ( isset($flash) ) {
     ?><div class="alert alert-<?= $flash['type']; ?>" role="alert">

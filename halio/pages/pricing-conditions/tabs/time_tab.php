@@ -1,4 +1,6 @@
 <?php
+if (!defined('ABSPATH')) { exit; }
+
 
 $time_pricing_conditions = $wpdb->get_results('SELECT * FROM `' . $wpdb->prefix . 'halio_time_pricing_conditions`');
 
